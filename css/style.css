@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    color: #000;
+    text-wrap: pretty;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+input:focus,
+input:focus-visible,
+input:focus-within,
+button:focus,
+button:focus-visible,
+button:focus-within,
+textarea:focus,
+textarea:focus-visible,
+textarea:focus-within {
+    outline: unset;
+    box-shadow: unset;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* .font-2 {
+    font-family: "Inter", sans-serif;
+} */
+
+.container {
+    margin: auto;
+    padding: 0 20px;
+}
+.customer-section .swiper-pagination-bullet-active{
+    background: #007660;
+}
+.customer-section .swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+}
+.faq-acoddian-item-box.active .faq-heading span{
+        transform: rotate(180deg);
+        background: #042E26;
+}
+.faq-acoddian-item-box.active .faq-heading span img{
+            filter: brightness(1) invert(1);
+}
+.input-form.active label{
+    font-size: 12px;
+        top: 1px;
+}
+.textarea-form-outer .input-form.active label{
+        top: 10px;
+}
+header.scrolled nav{
+    background: #000000;
+}
+body.active nav{
+       background: #000000;
+}
+
+/*  STYLING START */
+/*  STYLING FINISHED */
